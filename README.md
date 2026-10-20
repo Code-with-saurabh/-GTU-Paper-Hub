@@ -38,9 +38,13 @@ gtu-paper-hub.netlify.app   ← static site (no backend, no build step)
 ├── js/data.js              ← GTU CSE syllabus + paper-availability snapshot (the "database")
 ├── js/theme.js             ← Appearance panel (palette + light/dark/auto), localStorage
 ├── js/app.js               ← UI logic: semester view, search, filters, live refresh
-├── manifest.webmanifest    ← PWA manifest
-├── robots.txt / sitemap.xml
-└── og-image.png, icons     ← social + PWA assets
+├── assets/                 ← SEO/PWA assets
+│   ├── manifest.webmanifest
+│   ├── og-image.png        ← 1200×630 social share card
+│   ├── icon-192.png / icon-512.png / apple-touch-icon.png
+├── robots.txt              ← must stay at root (crawlers only check root)
+├── sitemap.xml             ← must stay at root
+└── netlify.toml            ← deploy config + caching/security headers
 ```
 
 ### Data layer (`js/data.js`)
