@@ -5,6 +5,12 @@
 Live site: **[https://gtu-paper-hub.netlify.app/](https://gtu-paper-hub.netlify.app/)**
 Built by **[Saurabh Sharma](https://saurabhsharma.is-a.dev)** · GitHub: **[@Code-with-saurabh](https://github.com/Code-with-saurabh)**
 
+> **Full documentation (step-by-step):** [`docs/`](./docs/README.md) —
+> [Getting Started](./docs/getting-started.md) · [Architecture](./docs/architecture.md) ·
+> [GTU API & Data](./docs/gtu-api-and-data.md) · [App Logic](./docs/app-logic.md) ·
+> [Theming](./docs/theming.md) · [Design](./docs/design.md) ·
+> [SEO](./docs/seo.md) · [Maintenance](./docs/maintenance.md)
+
 ---
 
 ## What this project does
